@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Reddit API Webapp Demo - Speckyboy</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://speckycdn.sdm.netdna-cdn.com/wp-content/themes/speckyboy_responsive_v0.7/favicon.ico">
+  <link rel="icon" href="http://speckycdn.sdm.netdna-cdn.com/wp-content/themes/speckyboy_responsive_v0.7/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+  <script type="text/javascript" src="js/redditjson.js"></script>
+</head>
+<body>
+
+	<div id="logo">
+		<h1>Reddit API Domain Search</h1>
+	</div>
+
+	<p>Enter a domain without <code>http://www.</code> to browse recent submissions in Reddit.</p>
+    
+    <div id="searchfield">
+      <form id="domainform" name="domainform">
+        <input type="text" class="search" id="s" name="s" placeholder="ex: youtube.com">
+      </form>
+    </div>
+    
+    <div id="content"></div>
+
+</body>
+</html>
